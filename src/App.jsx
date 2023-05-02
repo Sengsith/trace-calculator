@@ -24,6 +24,7 @@ function App() {
   return (
     <>
       <h1>Trace Calculator</h1>
+      <p>Still a work in progress... calculations will be incorrect depending on how many greens are dropped per clear. The current calculation will work if you receive 3 greens per clear.</p>
       <div className="card">
         <div className="item">
           <label for="blue-value">Blue required:
