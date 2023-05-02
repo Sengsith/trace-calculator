@@ -27,13 +27,13 @@ function App() {
       <div className="card">
         <div className="item">
           <label for="blue-value">Blue required:
-            <input id="blue-value" value={blueValue} onChange={handleBlue}></input>
+            <input id="blue-value" onChange={handleBlue}></input>
           </label>
         </div>
         <div className="item">
           <label for="green-value">
             Green Owned:
-            <input id="green-value" value={greenValue} onChange={handleGreen}></input>
+            <input id="green-value" onChange={handleGreen}></input>
           </label>
         </div>
         <div>You need to do <span id="runs">{runs}</span> runs!</div>

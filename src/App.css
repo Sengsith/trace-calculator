@@ -9,10 +9,6 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 .item {
   margin-bottom: 2rem;
 }
@@ -20,4 +16,6 @@
   padding: .5em 1.5em;
   border-radius: 2rem;
   border: transparent;
+  background-color: gray;
+  width: 3rem;
 }
